@@ -1,6 +1,6 @@
 body {
-    background-image: url("assets/images/bg-large.png");
     background: #eeeeee;
+    margin-bottom: 100px;
 }
 
 header {
@@ -63,7 +63,6 @@ article {
     width: 640px;
     background: #ffffff;
     padding: 20px;
-    margin-bottom: 100px;
 }
 
 article p {
@@ -189,8 +188,43 @@ article img {
 }
 
 
-/* .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-} */
+/* Media Queries */
+
+@media screen and (max-width: 960px) {
+    header {
+        width: 100%;
+    }
+    #fullname {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+    nav {
+        clear: both;
+    }
+    article {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    aside {
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    article {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    aside {
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+        margin-bottom: 100px;
+    }
+}
