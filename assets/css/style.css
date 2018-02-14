@@ -1,6 +1,6 @@
 body {
     background: #eeeeee;
-    margin-bottom:100px;
+    margin-bottom: 100px;
 }
 
 header {
@@ -186,23 +186,46 @@ article img {
     opacity: 0.8;
     text-align: center;
 }
+
+
 /* Media Queries */
+
 @media screen and (max-width: 960px) {
+    header {
+        width: 100%;
+    }
+    #fullname {
+        width: 100%;
+    }
     .container {
         width: 100%;
         margin: 0 auto;
     }
-    nav{
+    nav {
         clear: both;
         margin-bottom: 15px;
     }
-    article{
+    article {
         width: 100%;
         margin-bottom: 20px;
     }
-    aside{
+    aside {
         width: 100%;
         margin: 0 auto;
         float: left;
-        margin-bottom:100px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    article {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    aside {
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+        margin-bottom: 100px;
+    }
 }
