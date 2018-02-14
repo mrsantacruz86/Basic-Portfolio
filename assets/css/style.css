@@ -194,6 +194,7 @@ article img {
     }
     nav{
         clear: both;
+        margin-bottom: 15px;
     }
     article{
         width: 100%;
